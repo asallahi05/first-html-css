@@ -1,0 +1,119 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  width: 93%;
+  margin: 20px auto;
+  background-image: url(./images/bg-pattern-bottom-desktop.svg);
+  background-size: cover;
+}
+h1 {
+  color: hsl(300, 43%, 22%);
+  font-size: 40px;
+  text-align: start;
+}
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  align-content: center;
+  background-size: 50%;
+  background-repeat: no-repeat;
+}
+.p {
+  color: hsl(303, 10%, 53%);
+  width: 500px;
+  height: 250px;
+  text-align: center;
+  padding: 20px;
+}
+div {
+  padding: 10px;
+}
+.rates {
+  width: 520px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-areas:
+    "one one ."
+    ". three three";
+}
+.one {
+  grid-area: one;
+}
+.two {
+  grid-area: two;
+}
+.three {
+  grid-area: three;
+}
+h5 {
+  text-align: center;
+  position: relative;
+  bottom: 10px;
+  margin-top: 25px;
+}
+.text {
+  margin-right: 100px;
+  margin-top: 25px;
+  text-align: initial;
+}
+.star {
+  height: 40px;
+  border-radius: 10px;
+  background-color: hsl(300, 24%, 96%);
+  display: grid;
+  grid-template-columns: 120px 250px;
+  margin: 9px auto;
+}
+.abo {
+  position: relative;
+  bottom: 8px;
+}
+.reviews {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+}
+.reviews .card {
+  background-color: hsl(300, 79%, 15%);
+  margin-top: 10px;
+  padding: 35px 20px;
+  border-radius: 10px;
+}
+.reviews .card h3 {
+  color: white;
+}
+.reviews .card small {
+  color: hsl(333, 83%, 70%);
+}
+.reviews .card p {
+  color: white;
+}
+.flex {
+  display: flex;
+  align-items: center;
+}
+
+.card-image {
+  width: 55px;
+  height: 55px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+h3,
+small {
+  margin: 0;
+}
+.card-text {
+  margin-top: 5px;
+}
+
+.reviews .card2 {
+  grid-row: span 2;
+  margin-top: 25px;
+}
+
+.reviews .card3 {
+  grid-row: span 3;
+  margin-top: 50px;
+}
