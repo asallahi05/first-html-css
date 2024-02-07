@@ -6,7 +6,7 @@ body {
   background-size: cover;
 }
 h1 {
-  color: hsl(300, 43%, 22%);
+  color: hsl(300, 40%, 18%);
   font-size: 40px;
   text-align: start;
 }
@@ -47,10 +47,12 @@ div {
   grid-area: three;
 }
 h5 {
+  color: hsl(300, 47%, 26%);
   text-align: center;
   position: relative;
-  bottom: 10px;
+  bottom: 8px;
   margin-top: 25px;
+  opacity: 65%;
 }
 .text {
   margin-right: 100px;
@@ -67,12 +69,12 @@ h5 {
 }
 .abo {
   position: relative;
-  bottom: 8px;
+  bottom: 3px;
 }
 .reviews {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  gap: 30px;
+  gap: 33px;
 }
 .reviews .card {
   background-color: hsl(300, 79%, 15%);
